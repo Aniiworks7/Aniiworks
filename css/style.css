@@ -1134,7 +1134,7 @@ h6 {
 }
 
 #contact .info p {
-  padding: 0 0 10px 36px;
+  padding: 0 0 10px 28px;
   line-height: 28px;
   font-size: 14px;
 }
@@ -1425,3 +1425,23 @@ h6 {
     padding: 100px 0 20px 0;
   }
 }
+.float-wp {
+	position: fixed;
+	width:60px;
+	height:60px;
+	bottom:65px;
+	right:10px;
+	background-color:#25d366;
+	border-radius:50px;
+	text-align:center;
+	transform:scale3d(1,1,1);
+	transition: transform .5s cubic-bezier(1.18,1.89,1.32,1.28)
+	}
+.my-float {
+	margin-top:6px;
+	font-size:45px
+	}
+	
+	a.float-wp {
+	color:#fafafa!important
+	}
